@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F30D0F8E143BB2260023BE5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30D0F8D143BB2260023BE5D /* UIKit.framework */; };
+		F30D0F90143BB2260023BE5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30D0F8F143BB2260023BE5D /* Foundation.framework */; };
+		F30D0F92143BB2260023BE5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30D0F91143BB2260023BE5D /* CoreGraphics.framework */; };
+		F30D0F98143BB2260023BE5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F30D0F96143BB2260023BE5D /* InfoPlist.strings */; };
+		F30D0F9A143BB2260023BE5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F30D0F99143BB2260023BE5D /* main.m */; };
+		F30D0F9E143BB2260023BE5D /* DropdownTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F30D0F9D143BB2260023BE5D /* DropdownTestAppDelegate.m */; };
+		F30D0FA1143BB2260023BE5D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F30D0F9F143BB2260023BE5D /* MainWindow.xib */; };
+		F30D0FA4143BB2260023BE5D /* DropdownTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30D0FA3143BB2260023BE5D /* DropdownTestViewController.m */; };
+		F30D0FA7143BB2260023BE5D /* DropdownTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F30D0FA5143BB2260023BE5D /* DropdownTestViewController.xib */; };
+		F30D0FAF143BB2260023BE5D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30D0FAE143BB2260023BE5D /* SenTestingKit.framework */; };
+		F30D0FB0143BB2260023BE5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30D0F8D143BB2260023BE5D /* UIKit.framework */; };
+		F30D0FB1143BB2260023BE5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30D0F8F143BB2260023BE5D /* Foundation.framework */; };
+		F30D0FB2143BB2260023BE5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30D0F91143BB2260023BE5D /* CoreGraphics.framework */; };
+		F30D0FBA143BB2260023BE5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F30D0FB8143BB2260023BE5D /* InfoPlist.strings */; };
+		F30D0FBC143BB2260023BE5D /* DropdownTestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F30D0FBB143BB2260023BE5D /* DropdownTestTests.h */; };
+		F30D0FBE143BB2260023BE5D /* DropdownTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F30D0FBD143BB2260023BE5D /* DropdownTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F30D0FB3143BB2260023BE5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30D0F80143BB2250023BE5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30D0F88143BB2260023BE5D;
+			remoteInfo = DropdownTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F30D0F89143BB2260023BE5D /* DropdownTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropdownTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30D0F8D143BB2260023BE5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F30D0F8F143BB2260023BE5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F30D0F91143BB2260023BE5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F30D0F95143BB2260023BE5D /* DropdownTest-Info.plist */ = {isa = PBXFileReference; path = "DropdownTest-Info.plist"; sourceTree = "<group>"; };
+		F30D0F97143BB2260023BE5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F30D0F99143BB2260023BE5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F30D0F9B143BB2260023BE5D /* DropdownTest-Prefix.pch */ = {isa = PBXFileReference; path = "DropdownTest-Prefix.pch"; sourceTree = "<group>"; };
+		F30D0F9C143BB2260023BE5D /* DropdownTestAppDelegate.h */ = {isa = PBXFileReference; path = DropdownTestAppDelegate.h; sourceTree = "<group>"; };
+		F30D0F9D143BB2260023BE5D /* DropdownTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropdownTestAppDelegate.m; sourceTree = "<group>"; };
+		F30D0FA0143BB2260023BE5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F30D0FA2143BB2260023BE5D /* DropdownTestViewController.h */ = {isa = PBXFileReference; path = DropdownTestViewController.h; sourceTree = "<group>"; };
+		F30D0FA3143BB2260023BE5D /* DropdownTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropdownTestViewController.m; sourceTree = "<group>"; };
+		F30D0FA6143BB2260023BE5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DropdownTestViewController.xib; sourceTree = "<group>"; };
+		F30D0FAD143BB2260023BE5D /* DropdownTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropdownTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30D0FAE143BB2260023BE5D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F30D0FB7143BB2260023BE5D /* DropdownTestTests-Info.plist */ = {isa = PBXFileReference; path = "DropdownTestTests-Info.plist"; sourceTree = "<group>"; };
+		F30D0FB9143BB2260023BE5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F30D0FBB143BB2260023BE5D /* DropdownTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropdownTestTests.h; sourceTree = "<group>"; };
+		F30D0FBD143BB2260023BE5D /* DropdownTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropdownTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F30D0F86143BB2260023BE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30D0F8E143BB2260023BE5D /* UIKit.framework in Frameworks */,
+				F30D0F90143BB2260023BE5D /* Foundation.framework in Frameworks */,
+				F30D0F92143BB2260023BE5D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30D0FA9143BB2260023BE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30D0FAF143BB2260023BE5D /* SenTestingKit.framework in Frameworks */,
+				F30D0FB0143BB2260023BE5D /* UIKit.framework in Frameworks */,
+				F30D0FB1143BB2260023BE5D /* Foundation.framework in Frameworks */,
+				F30D0FB2143BB2260023BE5D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F30D0F7E143BB2250023BE5D = {
+			isa = PBXGroup;
+			children = (
+				F30D0F93143BB2260023BE5D /* DropdownTest */,
+				F30D0FB5143BB2260023BE5D /* DropdownTestTests */,
+				F30D0F8C143BB2260023BE5D /* Frameworks */,
+				F30D0F8A143BB2260023BE5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F30D0F8A143BB2260023BE5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30D0F89143BB2260023BE5D /* DropdownTest.app */,
+				F30D0FAD143BB2260023BE5D /* DropdownTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F30D0F8C143BB2260023BE5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F30D0F8D143BB2260023BE5D /* UIKit.framework */,
+				F30D0F8F143BB2260023BE5D /* Foundation.framework */,
+				F30D0F91143BB2260023BE5D /* CoreGraphics.framework */,
+				F30D0FAE143BB2260023BE5D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F30D0F93143BB2260023BE5D /* DropdownTest */ = {
+			isa = PBXGroup;
+			children = (
+				F30D0F9C143BB2260023BE5D /* DropdownTestAppDelegate.h */,
+				F30D0F9D143BB2260023BE5D /* DropdownTestAppDelegate.m */,
+				F30D0F9F143BB2260023BE5D /* MainWindow.xib */,
+				F30D0FA2143BB2260023BE5D /* DropdownTestViewController.h */,
+				F30D0FA3143BB2260023BE5D /* DropdownTestViewController.m */,
+				F30D0FA5143BB2260023BE5D /* DropdownTestViewController.xib */,
+				F30D0F94143BB2260023BE5D /* Supporting Files */,
+			);
+			path = DropdownTest;
+			sourceTree = "<group>";
+		};
+		F30D0F94143BB2260023BE5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F30D0F95143BB2260023BE5D /* DropdownTest-Info.plist */,
+				F30D0F96143BB2260023BE5D /* InfoPlist.strings */,
+				F30D0F99143BB2260023BE5D /* main.m */,
+				F30D0F9B143BB2260023BE5D /* DropdownTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F30D0FB5143BB2260023BE5D /* DropdownTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F30D0FBB143BB2260023BE5D /* DropdownTestTests.h */,
+				F30D0FBD143BB2260023BE5D /* DropdownTestTests.m */,
+				F30D0FB6143BB2260023BE5D /* Supporting Files */,
+			);
+			path = DropdownTestTests;
+			sourceTree = "<group>";
+		};
+		F30D0FB6143BB2260023BE5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F30D0FB7143BB2260023BE5D /* DropdownTestTests-Info.plist */,
+				F30D0FB8143BB2260023BE5D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F30D0F88143BB2260023BE5D /* DropdownTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30D0FC1143BB2260023BE5D /* Build configuration list for PBXNativeTarget "DropdownTest" */;
+			buildPhases = (
+				F30D0F85143BB2260023BE5D /* Sources */,
+				F30D0F86143BB2260023BE5D /* Frameworks */,
+				F30D0F87143BB2260023BE5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropdownTest;
+			productName = DropdownTest;
+			productReference = F30D0F89143BB2260023BE5D /* DropdownTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F30D0FAC143BB2260023BE5D /* DropdownTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30D0FC4143BB2260023BE5D /* Build configuration list for PBXNativeTarget "DropdownTestTests" */;
+			buildPhases = (
+				F30D0FA8143BB2260023BE5D /* Sources */,
+				F30D0FA9143BB2260023BE5D /* Frameworks */,
+				F30D0FAA143BB2260023BE5D /* Resources */,
+				F30D0FAB143BB2260023BE5D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30D0FB4143BB2260023BE5D /* PBXTargetDependency */,
+			);
+			name = DropdownTestTests;
+			productName = DropdownTestTests;
+			productReference = F30D0FAD143BB2260023BE5D /* DropdownTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F30D0F80143BB2250023BE5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Mutazo;
+			};
+			buildConfigurationList = F30D0F83143BB2250023BE5D /* Build configuration list for PBXProject "DropdownTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F30D0F7E143BB2250023BE5D;
+			productRefGroup = F30D0F8A143BB2260023BE5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F30D0F88143BB2260023BE5D /* DropdownTest */,
+				F30D0FAC143BB2260023BE5D /* DropdownTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30D0F87143BB2260023BE5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30D0F98143BB2260023BE5D /* InfoPlist.strings in Resources */,
+				F30D0FA1143BB2260023BE5D /* MainWindow.xib in Resources */,
+				F30D0FA7143BB2260023BE5D /* DropdownTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30D0FAA143BB2260023BE5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30D0FBA143BB2260023BE5D /* InfoPlist.strings in Resources */,
+				F30D0FBC143BB2260023BE5D /* DropdownTestTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F30D0FAB143BB2260023BE5D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30D0F85143BB2260023BE5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30D0F9A143BB2260023BE5D /* main.m in Sources */,
+				F30D0F9E143BB2260023BE5D /* DropdownTestAppDelegate.m in Sources */,
+				F30D0FA4143BB2260023BE5D /* DropdownTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30D0FA8143BB2260023BE5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30D0FBE143BB2260023BE5D /* DropdownTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F30D0FB4143BB2260023BE5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30D0F88143BB2260023BE5D /* DropdownTest */;
+			targetProxy = F30D0FB3143BB2260023BE5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F30D0F96143BB2260023BE5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30D0F97143BB2260023BE5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F30D0F9F143BB2260023BE5D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30D0FA0143BB2260023BE5D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F30D0FA5143BB2260023BE5D /* DropdownTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30D0FA6143BB2260023BE5D /* en */,
+			);
+			name = DropdownTestViewController.xib;
+			sourceTree = "<group>";
+		};
+		F30D0FB8143BB2260023BE5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30D0FB9143BB2260023BE5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F30D0FBF143BB2260023BE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F30D0FC0143BB2260023BE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F30D0FC2143BB2260023BE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropdownTest/DropdownTest-Prefix.pch";
+				INFOPLIST_FILE = "DropdownTest/DropdownTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F30D0FC3143BB2260023BE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropdownTest/DropdownTest-Prefix.pch";
+				INFOPLIST_FILE = "DropdownTest/DropdownTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F30D0FC5143BB2260023BE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DropdownTest.app/DropdownTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropdownTest/DropdownTest-Prefix.pch";
+				INFOPLIST_FILE = "DropdownTestTests/DropdownTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F30D0FC6143BB2260023BE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DropdownTest.app/DropdownTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropdownTest/DropdownTest-Prefix.pch";
+				INFOPLIST_FILE = "DropdownTestTests/DropdownTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F30D0F83143BB2250023BE5D /* Build configuration list for PBXProject "DropdownTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30D0FBF143BB2260023BE5D /* Debug */,
+				F30D0FC0143BB2260023BE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30D0FC1143BB2260023BE5D /* Build configuration list for PBXNativeTarget "DropdownTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30D0FC2143BB2260023BE5D /* Debug */,
+				F30D0FC3143BB2260023BE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F30D0FC4143BB2260023BE5D /* Build configuration list for PBXNativeTarget "DropdownTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30D0FC5143BB2260023BE5D /* Debug */,
+				F30D0FC6143BB2260023BE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F30D0F80143BB2250023BE5D /* Project object */;
+}
