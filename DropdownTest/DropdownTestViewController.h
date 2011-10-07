@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DropdownControl.h"
 
 @interface DropdownTestViewController : UIViewController
-
+{
+    DropdownControl *control;
+}
+@property(nonatomic,retain) DropdownControl *control;
 @end

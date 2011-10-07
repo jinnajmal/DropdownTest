@@ -23,6 +23,9 @@
 		F30D0FBA143BB2260023BE5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F30D0FB8143BB2260023BE5D /* InfoPlist.strings */; };
 		F30D0FBC143BB2260023BE5D /* DropdownTestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F30D0FBB143BB2260023BE5D /* DropdownTestTests.h */; };
 		F30D0FBE143BB2260023BE5D /* DropdownTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F30D0FBD143BB2260023BE5D /* DropdownTestTests.m */; };
+		F30D0FCC143BB2A30023BE5D /* DropdownControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F30D0FCB143BB2A30023BE5D /* DropdownControl.m */; };
+		F3ED9A6D143BB4BC000AB374 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ED9A6C143BB4BC000AB374 /* QuartzCore.framework */; };
+		F3ED9A70143BB536000AB374 /* arrow_skip_down.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ED9A6F143BB536000AB374 /* arrow_skip_down.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +43,26 @@
 		F30D0F8D143BB2260023BE5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F30D0F8F143BB2260023BE5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F30D0F91143BB2260023BE5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F30D0F95143BB2260023BE5D /* DropdownTest-Info.plist */ = {isa = PBXFileReference; path = "DropdownTest-Info.plist"; sourceTree = "<group>"; };
+		F30D0F95143BB2260023BE5D /* DropdownTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DropdownTest-Info.plist"; sourceTree = "<group>"; };
 		F30D0F97143BB2260023BE5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F30D0F99143BB2260023BE5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F30D0F9B143BB2260023BE5D /* DropdownTest-Prefix.pch */ = {isa = PBXFileReference; path = "DropdownTest-Prefix.pch"; sourceTree = "<group>"; };
-		F30D0F9C143BB2260023BE5D /* DropdownTestAppDelegate.h */ = {isa = PBXFileReference; path = DropdownTestAppDelegate.h; sourceTree = "<group>"; };
+		F30D0F9B143BB2260023BE5D /* DropdownTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DropdownTest-Prefix.pch"; sourceTree = "<group>"; };
+		F30D0F9C143BB2260023BE5D /* DropdownTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropdownTestAppDelegate.h; sourceTree = "<group>"; };
 		F30D0F9D143BB2260023BE5D /* DropdownTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropdownTestAppDelegate.m; sourceTree = "<group>"; };
 		F30D0FA0143BB2260023BE5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F30D0FA2143BB2260023BE5D /* DropdownTestViewController.h */ = {isa = PBXFileReference; path = DropdownTestViewController.h; sourceTree = "<group>"; };
+		F30D0FA2143BB2260023BE5D /* DropdownTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropdownTestViewController.h; sourceTree = "<group>"; };
 		F30D0FA3143BB2260023BE5D /* DropdownTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropdownTestViewController.m; sourceTree = "<group>"; };
 		F30D0FA6143BB2260023BE5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DropdownTestViewController.xib; sourceTree = "<group>"; };
 		F30D0FAD143BB2260023BE5D /* DropdownTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropdownTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30D0FAE143BB2260023BE5D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F30D0FB7143BB2260023BE5D /* DropdownTestTests-Info.plist */ = {isa = PBXFileReference; path = "DropdownTestTests-Info.plist"; sourceTree = "<group>"; };
+		F30D0FB7143BB2260023BE5D /* DropdownTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DropdownTestTests-Info.plist"; sourceTree = "<group>"; };
 		F30D0FB9143BB2260023BE5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F30D0FBB143BB2260023BE5D /* DropdownTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropdownTestTests.h; sourceTree = "<group>"; };
 		F30D0FBD143BB2260023BE5D /* DropdownTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropdownTestTests.m; sourceTree = "<group>"; };
+		F30D0FCA143BB2A30023BE5D /* DropdownControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownControl.h; sourceTree = "<group>"; };
+		F30D0FCB143BB2A30023BE5D /* DropdownControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownControl.m; sourceTree = "<group>"; };
+		F3ED9A6C143BB4BC000AB374 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F3ED9A6F143BB536000AB374 /* arrow_skip_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_skip_down.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3ED9A6D143BB4BC000AB374 /* QuartzCore.framework in Frameworks */,
 				F30D0F8E143BB2260023BE5D /* UIKit.framework in Frameworks */,
 				F30D0F90143BB2260023BE5D /* Foundation.framework in Frameworks */,
 				F30D0F92143BB2260023BE5D /* CoreGraphics.framework in Frameworks */,
@@ -105,6 +113,7 @@
 		F30D0F8C143BB2260023BE5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F3ED9A6C143BB4BC000AB374 /* QuartzCore.framework */,
 				F30D0F8D143BB2260023BE5D /* UIKit.framework */,
 				F30D0F8F143BB2260023BE5D /* Foundation.framework */,
 				F30D0F91143BB2260023BE5D /* CoreGraphics.framework */,
@@ -123,6 +132,8 @@
 				F30D0FA3143BB2260023BE5D /* DropdownTestViewController.m */,
 				F30D0FA5143BB2260023BE5D /* DropdownTestViewController.xib */,
 				F30D0F94143BB2260023BE5D /* Supporting Files */,
+				F30D0FCA143BB2A30023BE5D /* DropdownControl.h */,
+				F30D0FCB143BB2A30023BE5D /* DropdownControl.m */,
 			);
 			path = DropdownTest;
 			sourceTree = "<group>";
@@ -130,6 +141,7 @@
 		F30D0F94143BB2260023BE5D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F3ED9A6F143BB536000AB374 /* arrow_skip_down.png */,
 				F30D0F95143BB2260023BE5D /* DropdownTest-Info.plist */,
 				F30D0F96143BB2260023BE5D /* InfoPlist.strings */,
 				F30D0F99143BB2260023BE5D /* main.m */,
@@ -230,6 +242,7 @@
 				F30D0F98143BB2260023BE5D /* InfoPlist.strings in Resources */,
 				F30D0FA1143BB2260023BE5D /* MainWindow.xib in Resources */,
 				F30D0FA7143BB2260023BE5D /* DropdownTestViewController.xib in Resources */,
+				F3ED9A70143BB536000AB374 /* arrow_skip_down.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +281,7 @@
 				F30D0F9A143BB2260023BE5D /* main.m in Sources */,
 				F30D0F9E143BB2260023BE5D /* DropdownTestAppDelegate.m in Sources */,
 				F30D0FA4143BB2260023BE5D /* DropdownTestViewController.m in Sources */,
+				F30D0FCC143BB2A30023BE5D /* DropdownControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +344,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mutazo LLC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -345,6 +360,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "E53B4F8F-A9F2-4C6F-AB6F-D1142BE4CA1E";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -354,6 +370,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mutazo LLC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -363,6 +380,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "E53B4F8F-A9F2-4C6F-AB6F-D1142BE4CA1E";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -371,10 +389,13 @@
 		F30D0FC2143BB2260023BE5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mutazo LLC";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DropdownTest/DropdownTest-Prefix.pch";
 				INFOPLIST_FILE = "DropdownTest/DropdownTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E53B4F8F-A9F2-4C6F-AB6F-D1142BE4CA1E";
+				SDKROOT = iphoneos4.3;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -382,10 +403,13 @@
 		F30D0FC3143BB2260023BE5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mutazo LLC";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DropdownTest/DropdownTest-Prefix.pch";
 				INFOPLIST_FILE = "DropdownTest/DropdownTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E53B4F8F-A9F2-4C6F-AB6F-D1142BE4CA1E";
+				SDKROOT = iphoneos4.3;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -443,6 +467,7 @@
 				F30D0FC3143BB2260023BE5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F30D0FC4143BB2260023BE5D /* Build configuration list for PBXNativeTarget "DropdownTestTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +476,7 @@
 				F30D0FC6143BB2260023BE5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
